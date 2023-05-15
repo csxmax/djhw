@@ -73,9 +73,11 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_orm_migrations',
-        'HOST': '127.0.0.1',
+        'NAME': 'djhw_22_2_orm_migrations',
+        'HOST': '172.28.165.150',
         'PORT': '5432',
+        'USER': 'svcdjhw',
+        'PASSWORD': 'secret',
     }
 }
 
